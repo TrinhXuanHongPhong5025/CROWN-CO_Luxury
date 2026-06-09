@@ -1,6 +1,6 @@
 # CROWN-CO Shop Luxury
 
-## Nhóm thực hiện: Gió
+## Nhóm thực hiện: Cơn Gió Mùa Xuân
 
 ### Thành viên
 
