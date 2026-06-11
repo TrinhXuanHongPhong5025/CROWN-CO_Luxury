@@ -1,6 +1,5 @@
 import express from "express";
-import type { RowDataPacket } from "mysql2";
-import pool, { initDb } from "./db.js";
+import { initDb } from "./db.js";
 import { corsMiddleware } from "./middleware/corsMiddleware.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import userRoutes from "./routes/userRoutes.js";
