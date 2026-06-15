@@ -1,0 +1,9 @@
+CREATE DATABASE QuanLyThuVien;
+USE QuanLyThuVien;
+
+CREATE TABLE Sach(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    tenSach VARCHAR(255),
+    tacGia VARCHAR(255),
+    gia DECIMAL(10,2)
+);
