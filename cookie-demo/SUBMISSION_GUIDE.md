@@ -68,7 +68,7 @@ GET http://localhost:3000/session
 
 #### C. USER REGISTRATION (Yêu cầu 3)
 ```
-POST http://localhost:3000/
+POST http://localhost:3000/users/register
 Content-Type: application/json
 
 {
@@ -170,7 +170,7 @@ GET http://localhost:3000/users
 Ảnh chụp kết quả:
 ```json
 [
-  {
+  {source c
     "id": 1,
     "username": "admin"
   },
@@ -192,7 +192,7 @@ GET http://localhost:3000/users
 | **Yêu Cầu 3: User + Hash** | Ảnh POST /users/register (password mã hóa) |
 | **Yêu Cầu 4: JWT Auth** | Ảnh POST /auth/login (access_token) + GET /auth/profile (có token) |
 | **Dữ liệu CSDL** | Ảnh response hiển thị user đã lưu |
-| **Code** | Repo GitHub có tất cả source code |
+| **Code** | Repo GitHub có tất cả ode |
 
 ---
 

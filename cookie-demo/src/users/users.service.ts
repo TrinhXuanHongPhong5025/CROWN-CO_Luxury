@@ -23,4 +23,11 @@ export class UsersService {
   async findByUsername(username: string): Promise<User | undefined> {
     return this.users.find((u) => u.username === username);
   }
+
+  getAllUsers(): Omit<User, 'password'>[] {
+    return this.users.map(u => {
+      const { password, ...result } = u;
+      return result;
+    });
+  }
 }
