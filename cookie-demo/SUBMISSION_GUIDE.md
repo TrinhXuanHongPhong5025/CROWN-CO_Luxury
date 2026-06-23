@@ -68,7 +68,7 @@ GET http://localhost:3000/session
 
 #### C. USER REGISTRATION (Yêu cầu 3)
 ```
-POST http://localhost:3000/users/register
+POST http://localhost:3000/
 Content-Type: application/json
 
 {
