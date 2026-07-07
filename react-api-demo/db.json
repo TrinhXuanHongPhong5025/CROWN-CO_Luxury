@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "department": "IT",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@gmail.com",
+      "department": "Marketing",
+      "status": "Inactive"
+    },
+    {
+      "id": 3,
+      "name": "David Brown",
+      "email": "david@gmail.com",
+      "department": "Finance",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily@gmail.com",
+      "department": "HR",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Michael Lee",
+      "email": "michael@gmail.com",
+      "department": "Sales",
+      "status": "Inactive"
+    }
+  ]
+}
